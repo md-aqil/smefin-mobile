@@ -1,0 +1,315 @@
+@font-face {
+  font-family: 'semifin';
+  src:
+    url('fonts/semifin.ttf?q5vb6e') format('truetype'),
+    url('fonts/semifin.woff?q5vb6e') format('woff'),
+    url('fonts/semifin.svg?q5vb6e#semifin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="iconfin-"], [class*=" iconfin-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'semifin' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfin-amount .path1:before {
+  content: "\e900";
+  
+}
+.iconfin-amount .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  
+}
+.iconfin-amount .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  
+}
+.iconfin-amount .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  
+}
+.iconfin-amount .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  
+}
+.iconfin-amount .path6:before {
+  content: "\e905";
+  margin-left: -1em;
+  
+}
+.iconfin-amount .path7:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.iconfin-amount .path8:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.iconfin-amount .path9:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.iconfin-amount .path10:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.iconfin-ApplyLoan:before {
+  content: "\e90a";
+}
+.iconfin-arrow-down:before {
+  content: "\e90d";
+}
+.iconfin-arrow-left:before {
+  content: "\e90e";
+}
+.iconfin-arrow-right-thin:before {
+  content: "\e90f";
+}
+.iconfin-arrow-right:before {
+  content: "\e910";
+}
+.iconfin-arrow-up:before {
+  content: "\e911";
+}
+.iconfin-Builders:before {
+  content: "\e912";
+}
+.iconfin-BusinessExpansion:before {
+  content: "\e913";
+}
+.iconfin-cashback:before {
+  content: "\e914";
+}
+.iconfin-Cashflow:before {
+  content: "\e915";
+}
+.iconfin-check-ouline .path1:before {
+  content: "\e916";
+  color: rgb(255, 255, 255);
+}
+.iconfin-check-ouline .path2:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(29, 195, 116);
+}
+.iconfin-check .path1:before {
+  content: "\e918";
+  color: rgb(29, 195, 116);
+}
+.iconfin-check .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.iconfin-cheque:before {
+  content: "\e91a";
+}
+.iconfin-Circle-plus .path1:before {
+  content: "\e91b";
+  color: rgb(255, 255, 255);
+}
+.iconfin-Circle-plus .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(6, 95, 248);
+}
+.iconfin-Circle-plus .path3:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(6, 95, 248);
+}
+.iconfin-Commerical:before {
+  content: "\e91e";
+}
+.iconfin-CompareOffers .path1:before {
+  content: "\e91f";
+  color: rgb(222, 229, 251);
+}
+.iconfin-CompareOffers .path2:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(42, 62, 126);
+}
+.iconfin-CompareOffers .path3:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(42, 62, 126);
+}
+.iconfin-Construction:before {
+  content: "\e922";
+}
+.iconfin-contact:before {
+  content: "\e923";
+  color: #cdd4ea;
+}
+.iconfin-Contractors:before {
+  content: "\e924";
+}
+.iconfin-crane:before {
+  content: "\e925";
+}
+.iconfin-DiagnosticsCentre:before {
+  content: "\e926";
+}
+.iconfin-DialysisCentres:before {
+  content: "\e927";
+}
+.iconfin-Endoscopy:before {
+  content: "\e928";
+}
+.iconfin-factoring:before {
+  content: "\e929";
+}
+.iconfin-financial:before {
+  content: "\e92a";
+}
+.iconfin-Freezone:before {
+  content: "\e92b";
+}
+.iconfin-gaurantee:before {
+  content: "\e92c";
+}
+.iconfin-Hospital:before {
+  content: "\e92d";
+}
+.iconfin-Industrial:before {
+  content: "\e92e";
+}
+.iconfin-Inventory:before {
+  content: "\e92f";
+}
+.iconfin-invoice:before {
+  content: "\e930";
+}
+.iconfin-Land:before {
+  content: "\e931";
+}
+.iconfin-linedraw:before {
+  content: "\e932";
+}
+.iconfin-LLC:before {
+  content: "\e933";
+}
+.iconfin-loan-against:before {
+  content: "\e934";
+}
+.iconfin-machinery:before {
+  content: "\e935";
+}
+.iconfin-mail:before {
+  content: "\e936";
+}
+.iconfin-Mine-Operator:before {
+  content: "\e937";
+}
+.iconfin-Mine-Owners:before {
+  content: "\e938";
+}
+.iconfin-minus:before {
+  content: "\e939";
+  color: #2a3e7e;
+}
+.iconfin-Others:before {
+  content: "\e93a";
+}
+.iconfin-Partnership:before {
+  content: "\e93b";
+}
+.iconfin-PathlogyLab:before {
+  content: "\e93c";
+}
+.iconfin-PlantHirer:before {
+  content: "\e93d";
+}
+.iconfin-plus:before {
+  content: "\e93e";
+  color: #2a3e7e;
+}
+.iconfin-pos-merchant-loan:before {
+  content: "\e93f";
+}
+.iconfin-production:before {
+  content: "\e940";
+}
+.iconfin-ProfessionalAdv:before {
+  content: "\e941";
+  color: #2a3e7e;
+}
+.iconfin-Quick:before {
+  content: "\e942";
+  color: #2a3e7e;
+}
+.iconfin-Residential:before {
+  content: "\e943";
+}
+.iconfin-retailTrading:before {
+  content: "\e944";
+}
+.iconfin-Secure:before {
+  content: "\e945";
+  color: #2a3e7e;
+}
+.iconfin-service-call:before {
+  content: "\e946";
+}
+.iconfin-Services:before {
+  content: "\e947";
+}
+.iconfin-Sole-Partnership:before {
+  content: "\e948";
+}
+.iconfin-SpecialClinics:before {
+  content: "\e949";
+}
+.iconfin-SpecialityHosp:before {
+  content: "\e94a";
+}
+.iconfin-ToMakeRequest .path1:before {
+  content: "\e94b";
+  color: rgb(222, 229, 251);
+}
+.iconfin-ToMakeRequest .path2:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(42, 62, 126);
+}
+.iconfin-ToMakeRequest .path3:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(42, 62, 126);
+}
+.iconfin-ToMakeRequest .path4:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(42, 62, 126);
+}
+.iconfin-transparency:before {
+  content: "\e94f";
+  color: #2a3e7e;
+}
+.iconfin-Warehouse:before {
+  content: "\e950";
+}
+.iconfin-Whole-sale:before {
+  content: "\e951";
+}

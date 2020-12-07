@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="174" height="174" viewBox="0 0 174 174">
+  <g id="w4" transform="translate(-1014 -3418)">
+    <g id="Rectangle_2558" data-name="Rectangle 2558" transform="translate(1014 3418)" fill="#fcfce5" stroke="rgba(162,162,162,0.26)" stroke-width="1">
+      <rect width="174" height="174" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="173" height="173" rx="4.5" fill="none"/>
+    </g>
+    <g id="transparency" transform="translate(981 3462.006)">
+      <path id="Path_2346" data-name="Path 2346" d="M112.091,89.988h15.818V73.994H149V5.273H132.73A7.923,7.923,0,0,0,125.273,0H114.727a7.923,7.923,0,0,0-7.457,5.273H91V73.994h21.091Zm10.545-5.273h-5.273V68.721h5.273ZM120,52.9a13.27,13.27,0,1,1,13.182-13.182A13.2,13.2,0,0,1,120,52.9Zm-5.273-47.63h10.545a2.639,2.639,0,0,1,2.636,2.636v2.636H112.091V7.909A2.639,2.639,0,0,1,114.727,5.273ZM96.273,68.721V10.545h10.545v5.273h26.364V10.545h10.545V68.721H127.909V63.449h-5.273V57.987a18.455,18.455,0,1,0-5.273,0v5.462h-5.273v5.273Z" transform="translate(0)" fill="#223369" stroke="#fcfce5" stroke-width="1.5"/>
+      <path id="Path_2347" data-name="Path 2347" d="M216.212,185.393l-8.681,8.681-3.409-3.409-3.728,3.729,7.137,7.137,12.41-12.41Z" transform="translate(-90.167 -152.809)" fill="#223369" stroke="#fcfce5" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

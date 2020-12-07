@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+  <g id="Compare_Offers" data-name="Compare Offers" transform="translate(-595 -1048)">
+    <circle id="Ellipse_43" data-name="Ellipse 43" cx="45" cy="45" r="45" transform="translate(595 1048)" fill="#dee5fb"/>
+    <g id="advantages" transform="translate(620 1068)">
+      <path id="Path_1908" data-name="Path 1908" d="M39.388,8.952V2.7H31.576V0h-2.93V2.7H21.159V0h-2.93V2.7H10.742V0H7.813V2.7H0v6.25H39.388Zm0,0" fill="#2a3e7e"/>
+      <path id="Path_1909" data-name="Path 1909" d="M0,121.664v38.119H39.388V121.664ZM24.506,128.9l1.438,1.438,3.131-3.131,2.072,2.071-5.2,5.2-3.51-3.51Zm-2.729,10.671h9.375v2.93H21.777Zm0,5.566h9.375v2.93H21.777Zm0,5.566h9.375v2.93H21.777ZM8.762,128.527l2.072-2.071,2.089,2.089,2.089-2.089,2.071,2.071-2.089,2.089,2.089,2.089-2.071,2.072-2.089-2.089-2.089,2.089-2.072-2.072,2.089-2.089Zm-.526,11.041h9.375v2.93H8.236Zm0,5.566h9.375v2.93H8.236Zm0,5.566h9.375v2.93H8.236Zm0,0" transform="translate(0 -109.783)" fill="#2a3e7e"/>
+    </g>
+  </g>
+</svg>

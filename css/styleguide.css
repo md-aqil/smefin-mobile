@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'proxima';
+    src:  url('../fonts/ProximaNova-Regular.otf') format('otf'),
+          url('../fonts/Proxima\ Nova\ Alt\ Regular.otf') format('otf');
+  }
+  
+body {
+	font-family: 'proxima', sans-serif;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	font-family: 'proxima', sans-serif;
+    
+}
+:root {
+   --themecolor:#2A3E7E;
+   --themecolor1:#2A3E7E;
+   --themecolor2:#065FF8;
+   
+   --themegreen: #1DC374;
+   --border-color: #D4D4D4;
+   --spacer-value: 80px;
+   --bg-color: #F7F9FF;
+   --sidebar-width: 423px;
+}
+.spacer50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bg-color {
+    background: var(--bg-color);
+}
+.text-white {
+    color: #fff !important;
+}
+.theme-color {
+    color: var(--themecolor);
+}
+
+.theme-color2 {
+    color: var(--themecolor2);
+}
+.theme-color-bg {
+    background: var(--themecolor);
+}
+.spacer {
+	padding-top: var(--spacer-value);
+	padding-bottom: var(--spacer-value);
+}
+.spacer-top {
+	padding-top: var(--spacer-value);
+}
+.spacer-bottom {
+	padding-bottom: var(--spacer-value);
+}
+.title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+}
+.subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.fw-300 ,.fw300{
+    font-weight: 300 !important;
+}
+.height100 {
+    height: 100%;
+}
+.text {
+    line-height: 1.5;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color:#9191A6 !important;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #9191A6 !important;
+  }
+  
+  ::placeholder {
+    color: #9191A6 !important;
+  }
+  
+.fade-in[data-scroll] {
+	opacity: 0;
+	will-change: transform, scale, opacity;
+	-webkit-transform: translateY(6rem) scale(0.93);
+			transform: translateY(6rem) scale(0.93);
+	transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+.fade-in-right[data-scroll] {
+	opacity: 0;
+	will-change: transform, scale, opacity;
+	-webkit-transform: translatex(6rem) scale(0.93);
+			transform: translatex(6rem) scale(0.93);
+	transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .fade-in-left[data-scroll] {
+	opacity: 0;
+	will-change: transform, scale, opacity;
+	-webkit-transform: translatex(-6rem) scale(0.93);
+			transform: translatex(-6rem) scale(0.93);
+	transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .fade-in-top[data-scroll] {
+	opacity: 0;
+	will-change: transform, scale, opacity;
+	-webkit-transform: translateY(6rem);
+			transform: translateY(6rem);
+	transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .fade-in-bottom[data-scroll] {
+	opacity: 0;
+	will-change: transform, scale, opacity;
+	-webkit-transform: translateY(-6rem);
+			transform: translateY(-6rem);
+	transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+
+
+  .fade-in[data-scroll="in"],
+  .fade-in-right[data-scroll="in"],
+  .fade-in-left[data-scroll="in"],
+  .fade-in-top[data-scroll="in"],
+  .fade-in-bottom[data-scroll="in"] {
+	opacity: 1;
+	-webkit-transform: translateY(0) scale(1);
+			transform: translateY(0) scale(1);
+  }
+  
+  
+  .delay_1 {
+	transition-delay: 200ms;
+	animation-delay: 200ms;
+  }
+  
+  .delay_2 {
+	transition-delay: 400ms !important;
+	animation-delay: 400ms !important;
+  }
+  
+  .delay_3 {
+	transition-delay: 600ms !important;
+	animation-delay: 600ms !important;
+	
+  }
+  
+  .delay_4 {
+	transition-delay: 800ms !important;
+	animation-delay: 800ms !important;
+	
+  }
+  
+  .delay_5 {
+	transition-delay: 1000ms !important;
+	animation-delay: 1000ms !important;
+	
+  }
+  
+  .delay_6 {
+	transition-delay: 1200ms !important;
+	animation-delay: 1200ms !important;
+	
+  }
+  
+  .delay_7 {
+	transition-delay: 1400ms !important;
+	animation-delay: 1400ms !important;
+	
+  }
+  
+  .delay_8 {
+	transition-delay: 1600ms !important;
+	animation-delay: 1600ms !important;
+	
+  }
+  
+  .delay_9 {
+	transition-delay: 1800ms !important;
+	animation-delay: 1800ms !important;
+	
+  }
+  
+  .delay_10 {
+	transition-delay: 2000ms !important;
+	animation-delay: 2000ms !important;
+	
+  }
+
+  
