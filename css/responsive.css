@@ -99,6 +99,7 @@
     }
     .number-title:before {
         top: -105px !important;
+        left: 20px;
     }
     }
     .landing-hero .subtitle {
@@ -198,6 +199,20 @@
         font-size: 14px;
         line-height: 1.3;
         margin-top: 6px;
+        margin-bottom: 0;
+    }
+    
+    .title.theme-color.text-center {
+        margin-top: 0 !important;
+    }
+    .site-footer {
+        padding-top: var(--spacer-value) !important;
+        padding-bottom: var(--spacer-value) !important;
+    }
+    
+    
+    .mt-0 {
+        margin-top: 0 !important;
     }
     .icon-box [class^="iconfin-"], [class*=" iconfin-"] {
         font-size: 30px;
