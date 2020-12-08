@@ -7,6 +7,7 @@
 }
 @media (min-width: 320px) and (max-width: 480px) {
     
+    
     .sme-for-mobile .ui-checkboxradio-label.iconview {
         margin-right: 0;
     }
@@ -73,8 +74,14 @@
     .title {
         font-size: 25px !important;
     }
-    .landing-hero .title  {
+    .landing-hero .title {
         margin-top: 30px;
+        line-height: 1.3;
+        margin-bottom: 0;
+    }
+    .number-title:before {
+        top: -105px !important;
+    }
     }
     .landing-hero .subtitle {
         margin-top: 10px !important;
@@ -93,10 +100,34 @@
         --spacer-value: 40px !important;
     }
     .icon-box {
-        width: 95px;
+        width: 100px;
         height: 105px;
+        padding: 4px;
        
     }
+    .title {
+        font-size: 24px !important;
+        line-height: 1.5 !important;
+        font-weight: 600 !important;
+    }
+    .nav-faq {
+        background-color: #fff !important;
+    }
+    
+    
+    
+    .whychooseus .col-md-3 h4 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    .title.mb-5 {
+        margin-bottom: 10px !important;
+    }
+    .product-list li {
+        margin-top: 12px !important;
+    }
+    
  
     .product-list li {
         margin-left: 5;
@@ -496,10 +527,42 @@
 .sme-for-mobile .card-body .d-flex {
     justify-content: center;
 }
+.navbar-toggler:focus {
+    outline: 0;
+    border: none;
+  }
+  .exit {
+ position: absolute;
+ color: var(--themecolor2);
+ right: 15px;
+ top: 20px;
+ margin: 0;
+}
+.footer-list li a {
+    font-size: 18px;
+    line-height: 1.1;
+    color: #2a3e7e;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
 
+.benifits-list .list-group-item {
+    padding: 8px 0rem;
+    border: none;
+    background: none;
+    color: var(--themecolor);
+}
+
+.carditem-margin-20 .card {
+    margin-top: 0;
+}
+.carditem-margin-20 a.mr-3 {
+    margin-right: 8px !important;
+}
 .accordion-gallery-title {
-
-    padding: 21px 5px !important;
+    padding: 18px 5px !important;
+    border-radius: 5px;
     border: none !important;
     border: 1px solid var(--border-color) !important;
     text-transform: uppercase;

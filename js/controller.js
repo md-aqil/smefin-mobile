@@ -132,3 +132,15 @@ $(window).scroll(function(){
   if (scroll >= 100) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
 });
+
+// menu
+
+(function($){
+  
+  $(".menu-icon").on("click", function(){
+    	$(this).toggleClass("open");
+    	$(".container").toggleClass("nav-open");
+    	$("nav ul li").toggleClass("animate");
+  });
+  
+})(jQuery);
