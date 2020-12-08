@@ -7,7 +7,25 @@
 }
 @media (min-width: 320px) and (max-width: 480px) {
     
+    .landing-form .ui-tabs .ui-tabs-nav li {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .landing-form .btn{
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+    }
+    .landing-form .form-group {
+        margin-bottom: 15px;
+    }
+    .landing-form .form-control:not(textarea), .landing-form select.form-control {
+        height: 40px;
+    }
     
+    .top-brand-list {
+        height: 70px;
+        overflow-x: hidden;
+    }
     .sme-for-mobile .ui-checkboxradio-label.iconview {
         margin-right: 0;
     }
@@ -106,10 +124,28 @@
        
     }
     .title {
-        font-size: 24px !important;
-        line-height: 1.5 !important;
+        font-size: 20px !important;
+        line-height: 25px !important;
         font-weight: 600 !important;
+       margin-top: 20px !important;
     }
+    .landing-hero .subtitle {
+        margin-top: 10px !important;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    .landing-form .ui-widget-content {
+        background: #fff !important;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    
+    
+    
+    
+    
+    
     .nav-faq {
         background-color: #fff !important;
     }
@@ -125,10 +161,35 @@
         margin-bottom: 10px !important;
     }
     .product-list li {
-        margin-top: 12px !important;
+        margin-top: 15px !important;
     }
+    .footer-list h4 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: left;
+        color: #2a3e7e;
+        margin-bottom: 0;
+    }
+    .collapse.show {
+        display: block;
+        height: 100vh;
+        background: var(--bg-color);
+    }
+    .collapsing {
+        -webkit-transition: none;
+        transition: none;
+        display: none;
+    }
+    .slide-cp {
+        width: 100%;
+        overflow-y: scroll;
+    }
+    .slide-cp img {
+        
+    }
+  
     
- 
     .product-list li {
         margin-left: 5;
         margin-right: 5px;
@@ -515,10 +576,15 @@
 .sme-for-mobile .vl-center  p {
     font-weight: normal;
     font-size: 16px;
-    line-height: 32px;
+    line-height: 28px;
     text-align: left;
     color: #223369;
     
+}
+.blf h4 {
+font-weight: 500;
+font-size: 20px;
+color: #223369;
 }
 .sme-for-mobile .accr-header:focus, .ui-accordion-header:focus {
     border: 1px solid var(--border-color) !important;
@@ -544,7 +610,7 @@
     color: #2a3e7e;
     text-decoration: none;
     padding: 10px 0;
-    display: block;
+    opacity: 0.77;
 }
 
 .benifits-list .list-group-item {
