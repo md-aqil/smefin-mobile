@@ -147,3 +147,22 @@ $(window).scroll(function(){
   });
   
 })(jQuery);
+
+var swiper = new Swiper('.swiper-container.top-brand', {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  centeredSlides: true,
+  loop:true,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});

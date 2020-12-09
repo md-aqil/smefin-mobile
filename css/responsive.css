@@ -85,6 +85,15 @@
         border-top: 1px solid var(--border-color) !important;
         margin-right: -15px;
     }
+    .swiper-container.top-brand {
+        margin-top: 18px;
+    }
+    .swiper-container.top-brand .swiper-wrapper {
+        padding-left: 15px;
+    }
+    .swiper-container.top-brand .swiper-slide img {
+        width: 80px;
+    }
     .ui-slider .ui-slider-handle {
         width: 38px;
         height: 22px;
