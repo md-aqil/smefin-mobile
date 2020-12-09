@@ -65,8 +65,11 @@ $( function() {
   $( ".accordion" ).accordion({
     icon: false,
     collapsible: true,
-    active: false
+    active: false,
+    animate: false
   });
+
+  
 } );
 
 

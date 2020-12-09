@@ -6,6 +6,36 @@
   
 }
 @media (min-width: 320px) and (max-width: 480px) {
+    .info-box .ui-state-active {
+        color: #333 !important;
+    }
+    .benifits-list .badge {
+        font-size: 100%;
+        margin-right: 5px;
+        width: 22px;
+        float: left;
+    }
+    .table-list-accrodian {
+        display: none;
+        background-color: #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    
+    .benifits-list .list-group-item {
+        display: flex !IMPORTANT;
+    flex-wrap: nowrap;
+    }
+    
+    .accordion-gallery-items .card .d-flex{
+        justify-content: space-between;
+    }
+    .accordion-gallery-items .btn-outline-primary {
+        color: #2a3e7e;
+    }
+    
     
     .landing-form .ui-tabs .ui-tabs-nav li {
         padding-top: 3px;
@@ -33,6 +63,98 @@
     .sme-for-mobile .lof-sec .ui-checkboxradio-label {
         width: 145px;
     }
+  
+    .blog-sec .card .btn {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .blog-sec .card .btn  img {
+        margin-left: 5px !important;
+    }
+    
+    .info-box .ui-accordion-header-icon.ui-icon{
+        display:  none;
+    }
+    .info-box .ui-accordion-header  {
+        background: #fff !important;
+        border: none;
+        border-radius: 0;
+        margin: 0;
+        margin-left: -16px;
+        padding: 16px 20px;
+        border-top: 1px solid var(--border-color) !important;
+        margin-right: -15px;
+    }
+    .ui-slider .ui-slider-handle {
+        width: 38px;
+        height: 22px;
+    }
+    .ui-slider .ui-slider-handle:before {
+      
+        width: 35px;
+        height: 19px;
+        position: absolute;
+    }
+    .ui-slider-horizontal .ui-slider-handle {
+        margin-left: -18px !important;
+    }
+    .info-box .ui-accordion-header:after {
+        content: "";
+        display: block;
+        background: url(../img/icons/plus-simple.svg);
+        position: relative;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        right: 15px;
+        background-size: 100%;
+        filter: grayscale(1);
+        opacity: .6;
+    }
+    .info-box .ui-accordion-header-active:after {
+        background: url(../img/icons/minus-simple.svg) !important;
+        height: 2px;
+        background-size: 100%;
+        color:#333;
+        
+    }
+    
+    .tl-parent .d-flex.table-list {
+        flex-wrap: wrap;
+        margin-bottom: -5px;
+    }
+ 
+    .info-box .ui-accordion-content {
+        background: #fff !important;
+        border: none !important;
+        padding: 0 5px !important;
+    }
+     .ui-accordion-header-active {
+        color:#333;
+        border-color: var(--border-color) !important;
+        
+    }
+    .info-box  .ui-accordion-header:focus {
+        border: none !important;
+        color:#333;
+        border-top: 1px solid var(--border-color)!important;
+        
+    }
+    .bst {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+    color: #223369;
+    }
+    .add-scroll {
+        height: 100%;
+        overflow: initial !important;
+        padding: 7px;
+    }
+    
     .sme-for-mobile .mob-line {
         margin-bottom: 30px;
         margin-left: -20px;
@@ -99,7 +221,7 @@
     }
     .number-title:before {
         top: -105px !important;
-        left: 20px;
+        left: 0px;
     }
     }
     .landing-hero .subtitle {
@@ -210,6 +332,10 @@
         padding-bottom: var(--spacer-value) !important;
     }
     
+    .process-row .card {
+        width: 300px;
+        margin:auto;
+    }
     
     .mt-0 {
         margin-top: 0 !important;
