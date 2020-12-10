@@ -11,14 +11,9 @@
 
 
 @media (min-width: 320px) and (max-width: 480px) {
-    .navbar-collapse.collapsing {
-        -webkit-transition: height 0.0s;
-        -moz-transition: height 0.0s;
-        -ms-transition: height 0.0s;
-        -o-transition: height 0.0s;
-        transition: height 0.0s;
-      
-      }
+    .benifits-list .list-group-item {
+        line-height: 1;
+    }
       
     .navbar-toggler.nav-cross .navbar-toggler-icon {
         background: url(../img/cross.svg) center no-repeat;
