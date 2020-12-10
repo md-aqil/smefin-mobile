@@ -11,13 +11,21 @@
 
 
 @media (min-width: 320px) and (max-width: 480px) {
-    
+    .navbar-collapse.collapsing {
+        -webkit-transition: height 0.0s;
+        -moz-transition: height 0.0s;
+        -ms-transition: height 0.0s;
+        -o-transition: height 0.0s;
+        transition: height 0.0s;
+      
+      }
+      
     .navbar-toggler.nav-cross .navbar-toggler-icon {
         background: url(../img/cross.svg) center no-repeat;
         background-size: 18px;
     }
     .sme-for-mobile .button-box .btn-primary {
-        /* padding: 8px 50px !important; */
+        border-width: 2px;
     }
     .info-box .ui-state-active {
         color: #333 !important;
