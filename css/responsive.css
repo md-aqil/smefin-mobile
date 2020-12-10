@@ -3,9 +3,22 @@
 }
 
 @media (min-width: 320px) and (max-width: 375px) {
-  
+    .ui-checkboxradio-label.iconview {
+        width: 150px;
+        height: 120px;
+    }
 }
+
+
 @media (min-width: 320px) and (max-width: 480px) {
+    
+    .navbar-toggler.nav-cross .navbar-toggler-icon {
+        background: url(../img/cross.svg) center no-repeat;
+        background-size: 18px;
+    }
+    .sme-for-mobile .button-box .btn-primary {
+        /* padding: 8px 50px !important; */
+    }
     .info-box .ui-state-active {
         color: #333 !important;
     }

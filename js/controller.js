@@ -166,3 +166,7 @@ var swiper = new Swiper('.swiper-container.top-brand', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+$('.navbar-toggler').click(function() {
+  $(this).toggleClass('nav-cross')
+})
