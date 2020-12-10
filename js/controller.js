@@ -64,8 +64,8 @@ var text = $('.tl-parent .btn-link').click(function() {
 $( function() {
   $( ".accordion" ).accordion({
     icon: false,
-    collapsible: true,
-    active: false,
+    // collapsible: true,
+    // active: false,
     animate: false
   });
 
