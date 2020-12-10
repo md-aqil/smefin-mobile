@@ -7,6 +7,7 @@
         width: 150px;
         height: 120px;
     }
+    
 }
 
 
@@ -14,7 +15,29 @@
     .benifits-list .list-group-item {
         line-height: 1;
     }
-      
+    .eq-width-label  .ui-checkboxradio-label {
+        padding: 14px 60px;
+        margin-right: 0;
+    }
+    #businessactivity .ui-checkboxradio-label {
+        padding: 14px 30px !important;
+    }
+    .sme-for-mobile .lof-sec .ui-checkboxradio-label {
+        width: 147px !important;
+    }
+    .benifits-list .list-group-item {
+        align-items: flex-start;
+    }
+    .benifits-list .badge {
+        margin-top: -2px;
+    }
+    .grow-1 li {
+        flex-grow: initial !important;
+    }
+    .lof-sec {
+        margin-left: -12.5px;
+        margin-right: 0px;
+    }
     .navbar-toggler.nav-cross .navbar-toggler-icon {
         background: url(../img/cross.svg) center no-repeat;
         background-size: 18px;
