@@ -3,6 +3,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 375px) {
+    .add-quote img {
+        width: 12px;
+    }
     .ui-checkboxradio-label.iconview {
         width: 157.17px;
         height: 120px;
@@ -64,9 +67,17 @@
     .cr-list {
         margin-bottom: 0;
     }
+   
+    
+    .sme-for-mobile .ui-checkboxradio-label {
+        font-weight: bold;
+    }
+    .icon-circle {
+        height: 29px !important;
+    }
     .cr-list li {
         padding: 5px 0;
-        font-size: 16px;
+        font-size: 15px;
     }
     .cr-list li::marker {
         font-size: 18px;
@@ -343,6 +354,10 @@
         background: url(../img/MobileLandingPage.png) center no-repeat;
         background-size: cover;
         padding-bottom: 40px;
+        background-position: top;
+    }
+    .benifits-list .list-group-item {
+        line-height: 1.5;
     }
     .landing-form {
         width: 100%;
