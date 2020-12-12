@@ -68,6 +68,13 @@ $( function() {
     // active: false,
     animate: false
   });
+  
+  $( ".accordion-open" ).accordion({
+    icon: false,
+    collapsible: true,
+    active: true,
+    animate: false
+  });
 
   
 } );
@@ -170,3 +177,8 @@ var swiper = new Swiper('.swiper-container.top-brand', {
 $('.navbar-toggler').click(function() {
   $(this).toggleClass('nav-cross')
 })
+
+$('.vd-arrow').click(function() {
+    $(this).toggleClass('vd-active').parents('.table-list').toggleClass('tl-active');
+   
+});

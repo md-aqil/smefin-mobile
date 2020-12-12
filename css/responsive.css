@@ -4,14 +4,90 @@
 
 @media (min-width: 320px) and (max-width: 375px) {
     .ui-checkboxradio-label.iconview {
-        width: 150px;
+        width: 157.17px;
         height: 120px;
+    }
+    .icon-box {
+        width: 105px;
+        height: 105px;
+        padding: 4px;
+    }
+    .whychooseus .col-md-3 {
+        width: 48% !important;
+        margin-top: 30px!important;
+    }
+    .whychooseus .row {
+        justify-content: center;
+    }
+    .icon-status li {
+        margin-left: 9.5px;
+        margin-right: 9.5px;
+        margin-top: 12.5px;
+        margin-bottom: 12.5px;
+    }
+    .lof-sec .ui-checkboxradio-label {
+        margin-left: 10.5px;
+        margin-right: 10.5px;
+     
+    }
+    
+    .lof-sec .ui-checkboxradio-label {
+        margin-left: 7.6px;
+        margin-right: 8px;
+    }
+    /* .info-box .ui-accordion-header {
+        border-top: none !important;
+    } */
+
+    
+    .vd-active.vd-arrow:before {
+        content: "\e90f";
+        transform: rotate(270deg) !important;
+        display: inline-block;
+        top: 9px;
+        position: absolute;
+        font-family: 'semifin' !important;
+        right: 3px;
+        font-size: 14px;
+    }
+    .tl-active.table-list {
+        box-shadow: 0px -1px 2px rgb(34 51 105 / 52%);
+    }
+    .info-box .benifits-list .list-group-item {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    .benifits-list .list-group-item {
+     line-height: 1.5;
+        font-size: 14px;
+    }
+    .cr-list {
+        margin-bottom: 0;
+    }
+    .cr-list li {
+        padding: 5px 0;
+        font-size: 16px;
+    }
+    .cr-list li::marker {
+        font-size: 18px;
+    }
+    
+    [controls] li {
+        font-size: 12px;
+        color: #757575;
+        font-weight: bold;
     }
     
 }
 
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .number-list li span {
+        width: 22px;
+    }
+    .navbar-theme .navbar-nav .nav-link {
+        font-weight: bold;
+    }
     .benifits-list .list-group-item {
         line-height: 1;
     }
@@ -28,9 +104,7 @@
     .benifits-list .list-group-item {
         align-items: flex-start;
     }
-    .benifits-list .badge {
-        margin-top: -2px;
-    }
+  
     .grow-1 li {
         flex-grow: initial !important;
     }
@@ -100,7 +174,7 @@
     }
   
     .sme-for-mobile .lof-sec .ui-checkboxradio-label {
-        width: 145px;
+        width: 157.17px !important;
     }
   
     .blog-sec .card .btn {
@@ -249,6 +323,7 @@
     }
     .sme-for-mobile .product-list .icon-box {
         width: 95px !important;
+        
     }
     
     .sme-for-mobile .table-list .btn {
@@ -303,11 +378,11 @@
         --spacer-value: 40px !important;
     }
     .icon-box {
-        width: 100px;
+        width: 105px;
         height: 105px;
         padding: 4px;
-       
     }
+    
     .title {
         font-size: 20px !important;
         line-height: 25px !important;
