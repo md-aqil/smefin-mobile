@@ -4,7 +4,8 @@
 
 @media (min-width: 320px) and (max-width: 375px) {
     .add-quote img {
-        width: 12px;
+        width: 10px;
+        margin-top: -5px;
     }
     .ui-checkboxradio-label.iconview {
         width: 157.17px;
@@ -57,7 +58,7 @@
         box-shadow: 0px -1px 2px rgb(34 51 105 / 52%);
     }
     .info-box .benifits-list .list-group-item {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 1.4;
     }
     .benifits-list .list-group-item {
